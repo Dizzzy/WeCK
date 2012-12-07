@@ -1,0 +1,53 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* THE RAWNET TEAM */
+
+  Designer: Jay Dick @jaydick
+  
+  Frontend Developers: Simon Sturgess @dahliacreative,
+                       Razvan Cercelaru @raz_c
+                       
+  Backend Developers: 
+  
+  Project Managers: Suzanne Nugent @suzenugent
+  
+
+  Site: www.rawnet.com
+  Twitter: @rawnet
+  Location: Berkshire House, 39-51 High Street, Ascot, Berkshire, SL5 7HY, United Kingdom
+  
+
+/* THANKS */
+  Frontend - Paul Irish, Andy Clarke, Nicolas Gallagher, John Resig
+  Steve Jobs and  Apple Inc.
+  
+
+
+........=O$                        
+........~8?$8I                                              
+........?O==~?$,                                      
+........$O====I8~     
+ ....   87==:===Z,              
+........O+==..==?O.
+ ... ..:7==:..,==7O8:.                                          
+......,O===....:==Z?ZO      
+ ....?O?=+~    .==+==+Z,.     .....+7ZZZO$=....+7ZZZZZZ$I,...IZZ$~.......II+~....  .7ZOZ,   .+$OOOOOOO7~.. .... ,=ZOOOOOO$?.....OOOOOZOOOOZ
+....=Z===,. ....~=++++?8=........:OZZZZZZZZ:.~OZZZZZZZZZZZZ..=OZZZ=.....+ZZOZ=.....:ZZZZ:  =ZOOOOOOOOOOOO,.... 78OOOOOOOOOOZ?...OOOOOOOOOOO
+...Z8+++...   ..~++:.+++8,..  ...ZZZZZO$7ZZ:.IZZ$+~::+ZZZZO$..ZZZZ$.....ZZZZZZ.....IZZZZ.  8OOOOO++7OOOOO7 .. +8OOOO?.:+OOOO8+..OOOOOOOOOI:
+..8O++=....   ..=++...++?+..  ..+ZZZZ7.......+:........7ZZOZ..?ZZZZ~...+ZZZZZZ+...,ZZZOZ. +8OOO?     7OOOO~  ~OOOO=.     Z8OO7 .OOO87
+.~$++~.....   ..=+,  .=??O.. ...+ZZZO,.    ............?ZZZO..:ZZZZ$...ZZZZZZZO...IZZZZ7..7OO8$       OOOO7..ZOOOO. ... .$8OO$ .OOO87
+,8???......   ..~..   :??Z?. ...+ZZZO...   ....:$ZOZZZOZZZZO..,ZZZZO...ZZZZZZZZ,..ZZZZZ,..7OOO7       ZOOO7 :OOOOOOOOOOO8OOOO7 .OOO87
+ZZ??~   .,.   .. .    .?II8.  ..+ZZZO..     .=ZZZZZZOZZZZZZO...7OZZZ,.=OZO=7ZZZ+..OZZZ=...7OOO7       ZOOO7.:OOOOOOOOOOOOOO8O,..OOO87
+O$I+.   ~7:.  ..      .~IIO~. ..+ZZZO..    ..ZZZZZ7....+OZZO....ZZZO$,ZZOZ.,ZZOZ~IZZZ7....7OOO7       ZOOO7.,OOOOO777777?+:.  ..OOO87
+OZ7:.   +Z8I:.....    .,I7O=. ..+ZZZO..   ..:OZOZ+.....+ZZZZ.   :ZZZOOOZOZ..=ZZOOZZZZ.   .7OOO7       ZOOO7..7OOOO,.............OOOOO
+OZZ:.....78D88$+. .   .~OZO?. ..+ZZZO..     ,ZZZZZ+,.,=OZZZO.   .ZOZZZZZZ~...OOOZZZZ$.   .7OOO7       ZOOO7...78OOOZ=,,,.,~7O~..OOOOOZ
+8OO~......~88888OI.   .IOO8~. ..+ZZZO..     .+ZZZZZZZZZZZZZ=.   ..7OZZZZ,....:ZZZOZ7..   .$OOO7       ZOOO7... 7OOOOOOOOOOOO8:..~O8OOOOOOO8
+ZOO$...~O7:I888888$...:OO8O.  ...7ZOO..     ..,?ZOZZZZZZZ=..     ..~OOZ,      ,ZZO?.      .OOO7       =O88$      ?OOOOOOOOO$, ....=O8OOOOOI 
+,8O8Z..,8888888888O...ZOO8:
+.=888=..88888888887..$O8O?
+..8O8OO??88888888O.I8O888
+...IO888O78888888Z88888I
+.....88888888888O88888
+       7$Z88888O$I

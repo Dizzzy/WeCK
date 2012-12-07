@@ -1,0 +1,28 @@
+/* Google Chrome Frame */
+
+table.chromeFrameOverlayContent {
+  width: auto !important;
+  margin-top: -200px !important;
+}
+
+.chromeFrameOverlayContent iframe {
+  height: 400px !important;
+}
+
+#chromeFrameCloseButton {
+  float: right !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  background: #80b0e5 !important;
+  
+  font-size: 11px !important;
+  line-height: 16px !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  text-indent: 0 !important;
+}
+
+.chromeFrameOverlayUnderlay {
+  left: 0;
+  top: 0;
+}
