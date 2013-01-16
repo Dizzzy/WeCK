@@ -120,7 +120,8 @@ table, td, th { vertical-align: middle; }
    Some additional stuff
    ========================================================================== */
    
-.ie7 .pagination ul { display: inline !important; }
+* { -webkit-backface-visibility: hidden; }
+
 input:hover, input:active { outline: none; }
 input[type="search"] { outline: none; }
 ol, ul { list-style: none; }
@@ -368,40 +369,13 @@ ul.list > li:before {
    
 /* ////////      FORM LAYOUT       \\\\\\\\ */
 
-form ol li {
+form ol > li {
   float: left;
   clear: left;
   width: 100%;
   margin-bottom: 8px;
 }
 
-form li.multiple ul {
-  float: left;
-  /*width: 410px;*/
-  margin: 0;
-  padding-top: 7px;
-  
-  overflow: hidden;
-}
-
-span.spacer  {
-  float: left;
-  line-height: 28px;
-  vertical-align: top;
-}
-
-form li h5 {
-  float: right;
-  width: 290px;
-  padding: 5px 129px 9px 0;
-  margin: 0;
-  
-  font-size: 10px;
-  font-weight: bold;
-  line-height: 1.2;
-  color: #222;
-  letter-spacing: 0;
-}
 
 
 /* ////////       VALIDITY       \\\\\\\\ */
