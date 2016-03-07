@@ -1,0 +1,20 @@
+{
+  "name": "weck",
+  "description": "Website Creation Kit",
+  "main": "index.html",
+  "authors": [
+    "Razvan Cercelaru"
+  ],
+  "license": "Apache-2.0",
+  "moduleType": [
+    "amd"
+  ],
+  "homepage": "raz.is",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

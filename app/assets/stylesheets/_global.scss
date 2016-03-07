@@ -1,0 +1,338 @@
+/* ------------------------------------------------------------------------------------
+                    GLOBAL STYLES - UNIVERSAL SELECTORS AND CLASSES
+--------------------------------------------------------------------------------------
+These are default styles that every page needs to inherit */
+
+html {
+  font-size: $basefont;
+  font-weight: 400;
+  line-height: rem(24px);
+  color: $black;
+}
+
+body {
+  min-width: 1100px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 20px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 15px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: always;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+
+  margin-bottom: 10px;
+}
+ 
+h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1rem;
+
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 0 1.5em 0;
+}
+
+
+/* ================================================
+                       LINKS
+   ============================================= */
+
+a {
+  color: $black;
+}
+a[href]:hover {
+  color: #3896c7;
+  text-decoration: underline;
+}
+
+/* ================================================
+              User selection styles
+   ============================================= */
+
+::-moz-selection { background: rgba($black,.99); text-shadow: none; color: #fff }
+::selection { background: rgba($black,.99); text-shadow: none; color: #fff }
+
+
+/* ================================================
+                   GENERIC LISTS
+   ============================================= */
+/*
+/* Unordered */
+
+ul.list {
+  margin: 0 0 20px 0;
+  overflow: hidden;
+}
+
+ul.list > li {
+  position: relative;
+  margin: 0 0 0 10px;
+  padding-left: 12px;
+  margin-bottom: 8px;
+
+  font-size: 16px;
+  line-height: 22px;
+
+  z-index: 1;
+}
+
+ul.list > li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 8px;
+
+  display: block;
+  width: 5px;
+  height: 6px;
+  
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* ================================================
+                       FORMS
+   ============================================= */
+   
+/* ////////      FORM LAYOUT       \\\\\\\\ */
+
+form ol > li {
+  position: relative;
+  float: left;
+  clear: left;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.parsley-error-list {
+  display: none !important;
+}
+
+/* ////////       VALIDITY       \\\\\\\\ */
+
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid, input.invalid {
+  @include box-shadow(none);
+}
+
+
+/* ////////      PLACEHOLDERS       \\\\\\\\ */
+
+input:-moz-placeholder { color: #97958e !important; }
+input::-webkit-input-placeholder { color: #97958e !important; }
+input.placeholder { color: #97958e !important; }
+
+textarea:-moz-placeholder { color: #97958e !important; }
+textarea::-webkit-input-placeholder { color: #97958e !important; }
+textarea.placeholder { color: #97958e !important;}
+
+
+
+/* ////////      LABELS       \\\\\\\\ */
+
+label {
+  position: relative;
+  float: left;
+  padding-top: 5px;
+  margin-right: 14px;
+  
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: inherit;
+  color: $black;
+  text-align: left;
+}
+
+label.fullwidth {
+  float: none;
+  display: block;
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+label.required:after {
+  content: "*";
+  font-size: 80%;
+  color: #ea1c1c;
+  vertical-align: top;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+  padding: 0 0 5px 0;
+  margin-top: -2px;
+  
+  font-size: rem(12px);
+  line-height: 1rem;
+  vertical-align: middle;
+}
+
+input[type="radio"] + label {
+  padding: 0 0 5px 5px;
+}
+
+form > small {
+  display: block;
+  margin-top: 4px;
+
+  font-size: 0.6875rem;
+  line-height: 0.8125rem;
+  color: #a3a3a3;
+}
+
+
+/* ////////      INPUTS       \\\\\\\\ */
+
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+textarea {
+  float: left;
+  width: 250px;
+  height: 44px;
+  padding: 3px 10px;
+  @include box-sizing(border-box);
+  
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: normal;
+  color: $black;
+  border: 1px solid #ccc;
+
+  border-radius: 5px;
+  
+  -webkit-appearance: none !important;
+  vertical-align: middle;
+}
+
+label.fullwidth + input,
+label.fullwidth + textarea {
+  float: none;
+  width: 100%;
+}
+
+input.parsley-error {
+  border-color: #ea1c1c;
+}
+
+input[type="number"] {
+  width: 24px;
+  text-align: center;
+}
+
+
+/* *** Checkboxes  *** */
+
+input[type="checkbox"],
+input[type="radio"] {
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin: 0 5px 0 0;
+  padding: 0;
+  vertical-align: bottom;
+}
+
+
+/* *** File  *** */
+
+input[type="file"] {
+  width: 250px;
+  height: auto;
+  padding: 6px;
+  margin-top: 2px;
+  margin-bottom: 4px;
+
+  border-radius: 0;
+
+  font-size: inherit;
+  font-weight: normal;
+  border: 1px solid #ccc;
+  background: white;
+  vertical-align: bottom;
+}
+
+
+/* ////////      SELECTS       \\\\\\\\ */
+
+select {
+  float: left;
+  min-width: 125px;
+  height: 26px;
+  padding: 3px;
+  margin: 0;
+  border: 1px solid #a6a6a6;
+  
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  color: $black;
+  outline: none;
+  overflow: hidden;
+}
+
+select option {
+  padding: 5px;
+}
+
+select option[disabled] {
+  display: none;
+}
+
+
+/* ////////      TEXTAREA       \\\\\\\\ */
+
+textarea {
+  height: 100px;
+  padding: 8px 10px;
+
+  vertical-align: middle;
+}

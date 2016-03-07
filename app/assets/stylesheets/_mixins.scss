@@ -1,0 +1,32 @@
+@function rem($size) {
+  $remSize: $size / $basefont;
+  @return #{$remSize}rem;
+}
+
+@mixin retina($position) {
+  @include retina-image($sprite, $spriteWidth auto, png, $sprite+"@2x");
+	background-position: $position;
+  background-repeat: no-repeat;
+}
+
+@mixin font-smoothing($value: on) {
+  @if $value == on {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: always;
+  }
+  @else {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    font-smooth: auto;
+  }
+}
+
+@mixin respond-to($size, $minmax) {
+  @if $minmax == min {
+    @media screen and (min-width: $size) { @content; }
+  }
+  @else {
+    @media screen and (max-width: $size) { @content; }
+  }
+}
